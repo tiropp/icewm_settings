@@ -1,0 +1,29 @@
+#!/bin/bash
+
+##
+## Setup screens
+##
+
+## Version 1
+## Using HP Graphics 530 
+#xrandr --output DP2 --right-of DP1
+
+## Version 2
+## Using HD Graphics 530 
+# xrandr --output DP-2 --crtc 0 --primary --output DP-1 --crtc 1 --right-of DP-2
+
+## Version 3
+## Using HD Grpahics 530 and GeForce GT 1030
+##
+## DP-0: Asus
+## DP-1-1: Dell 1 (new)
+## DP-1-2: Dell 2 (old)
+## HDMI-0: TV
+##
+xrandr --setprovideroutputsource 1 0 
+xrandr --output DP-1-1 --auto --primary \
+       --output DP-0 --auto --right-of DP-1-1 \
+       --output DP-1-2 --auto --left-of DP-1-1 
+
+#xrandr --output DP-1-1 --auto --left-of DP-0 \
+#       --output DP-1-2 --auto --left-of DP-1-1

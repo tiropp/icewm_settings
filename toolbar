@@ -1,0 +1,21 @@
+# This is a default toolbar definition file for IceWM
+#
+# Place your personal variant in $HOME/.icewm directory.
+
+# prog XTerm xterm x-terminal-emulator
+#prog "XTERM" /usr/share/pixmaps/gnome-gemvt.png konsole -ls
+prog "xterm" /usr/share/pixmaps/mini.xterm_32x32.xpm xterm -bg white -fg black -ls
+
+#prog FTE fte fte
+#prog Netscape netscape netscape
+#prog    "Vim" vim /usr/bin/gvim -f
+
+prog   "WWW" /usr/share/pixmaps/firefox-esr.png  /usr/bin/firefox
+
+#prog 	"xdtv" /usr/share/pixmaps/gnome-ccscreensaver.png	/usr/bin/xdtv
+#prog    "xmms2" /usr/share/pixmaps/xmms2-128.png /usr/bin/xmms2
+# prog	"amarok" /usr/share/pixmaps/amarok.xpm /usr/bin/amarok
+# prog	"alsamixer" /usr/share/pixmaps/gnome-mixer.xpm    xterm -bg lightblue -fg black -fn -misc-fixed-medium-r-normal-*-8-80-75-75-c-50-iso10646-1 -e alsamixer
+prog	"pavucontrol" /usr/share/pixmaps/gnome-mixer.xpm	/usr/bin/pavucontrol
+#prog	"mail" /usr/share/pixmaps/comps/mail-server.png               xterm -fn -misc-fixed-medium-r-*-*-20-*-*-*-*-*-iso10646-* -e alpine
+# prog 	"skype" /usr/share/skype/avatars/College\ Skype.png  /usr/bin/skype

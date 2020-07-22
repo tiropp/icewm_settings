@@ -1,0 +1,9 @@
+# local key file
+# the std file can be found in /usr/share/icewm/keys 
+# and/or in /etc/X11/icewm/keys
+
+key "Super+L" xscreensaver-command -lock
+key "Alt+Ctrl+KP_7" aumix -v +5    # Master
+key "Alt+Ctrl+KP_1" aumix -v -5
+key "Alt+Ctrl+KP_8" aumix -w +5    # PCM
+key "Alt+Ctrl+KP_2" aumix -w -5

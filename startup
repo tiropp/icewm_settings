@@ -1,0 +1,14 @@
+#!/bin/sh
+
+
+## Set the external screen, if connected!
+~/.icewm/setup_screen
+
+# conky&
+# Eterm -O -x -f white --scrollbar 0 --buttonbar 0&
+xscreensaver -nosplash&
+#gnome-screensaver&
+#gnome-volume-manager&
+#gnome-power-manager&
+# xpad&
+~/bin/icedove&
